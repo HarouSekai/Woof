@@ -34,6 +34,7 @@ import androidx.core.view.WindowCompat
 private val LightColorPalette = lightColorScheme(
     background = Green100,
     surface = Green50,
+    onSecondary = Green25,
     onSurface = Grey900,
     primary = Grey50,
     onPrimary = Grey900,
@@ -43,6 +44,7 @@ private val LightColorPalette = lightColorScheme(
 private val DarkColorPalette = darkColorScheme(
     background = Cyan900,
     surface = Cyan700,
+    onSecondary = Cyan500,
     onSurface = White,
     primary = Grey900,
     onPrimary = White,
